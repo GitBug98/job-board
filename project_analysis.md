@@ -11,7 +11,7 @@ job :
     - Vacancy
     - Salary
     - description
-    - experince
+    - experience
     - category (R)
 
 
