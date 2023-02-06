@@ -1,9 +1,7 @@
 from django.urls import path
-from django.urls import include, path
-
 from . import views
 
 urlpatterns = [
     path('', views.job_list),
-    path('<int:id>', views.job_details())
+    path('<int:id>', views.job_details)
 ]
