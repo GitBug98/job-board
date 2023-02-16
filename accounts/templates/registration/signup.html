@@ -1,0 +1,21 @@
+{% extends "base_log.html" %}
+
+{% load bootstrap4 %}
+
+{% block content %}
+
+
+
+
+  <div class="col-lg-6 mx-auto">
+    <form method="post">
+      {% csrf_token %}
+      {% bootstrap_form form %}
+      <input type="submit" value="signup" class="boxed-btn3 w-100 mx-auto" >
+      
+    </form>
+
+  </div>
+ 
+
+{% endblock %}
